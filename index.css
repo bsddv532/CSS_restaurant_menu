@@ -1,0 +1,141 @@
+.main-parent{
+    border: 10px groove greenyellow;
+    background-image: url(./blue-light-disco-4-1492964.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 1550px;
+}
+
+.box{
+    color: white;
+    background-color: black;
+    border: 5px solid red;
+    margin: 20px;
+    font-style: italic;
+    font-size: 25px
+}
+
+.parent-box{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.box1{
+    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.box2{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    width: 350px;
+    height: 15px;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.box3{
+    width: 260px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.circle{
+    border: 5px solid silver;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background:darkcyan;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 90px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 150px
+}
+
+.inner{
+    font-weight:bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.div1{
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.div2{
+    text-align: justify;
+    padding: 20px;
+}
+
+.div3{
+    padding-top: 10px;
+}
+
+.rectangle{
+    border: 5px dashed red;
+    width: 300px;
+    height:600px;
+    display: inline-block;
+    margin-left: 400px;
+}
+
+form{
+    color: hotpink;
+    text-align: center;
+}
+
+.menu-head{
+    color: white;
+    border: 5px solid red;
+    background: black;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 550px;
+    padding: 5px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 900px;
+    margin-left: 300px;
+}
+
+.list{
+    color: blue;
+    border: 2px solid green;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    background: cyan;
+    margin: 20px
+}
